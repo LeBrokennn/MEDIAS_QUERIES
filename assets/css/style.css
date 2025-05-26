@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(/assets/img/fonffo.jpg);
+  background-repeat: no-repeat;
+}
+.sidebar {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  padding: 1rem;
+}
+.sidebar a {
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*mobile */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .topbar {
+    display: none;
+  }
+}
+
+/* Footer para mobile */
+.footer {
+  background-image: url(/assets/img/fonffo.jpg);
+  color: rgb(248, 248, 248);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  height: 600px;
+  background-image: url(/assets/img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #004080;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 2px 8px #004080;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.logo {
+    height: auto;
+max-width: 100%
+}
+.boton {
+    height: auto;
+max-width: 100%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+ .catalogo {
+    display: inline-block;
+    padding: 30px;
+   background-image: url(/assets/img/fonffo.jpg);
+  }
